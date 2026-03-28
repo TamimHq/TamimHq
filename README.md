@@ -64,9 +64,19 @@ I am passionate about developing intelligent systems that combine **real-world a
 - Video processing and object counting  
 
 ### 🔹 AI vs Real Image Classification
-- CNN-based model to classify real vs AI-generated images  
-- Built using CIFAKE dataset  
 
+- Developed a deep learning model to classify **real vs AI-generated images** using the CIFAKE dataset  
+- Implemented a **custom CNN (baseline)** and **EfficientNetB0 (transfer learning)** for performance comparison  
+- Applied image preprocessing, normalization, and data augmentation techniques to improve generalization  
+- Evaluated models using accuracy and classification metrics to identify the best-performing architecture  
+---
+### 🔹 Retrieval-Augmented Generation (RAG) Pipeline
+
+- Built an end-to-end **RAG pipeline** for intelligent question answering over custom documents  
+- Implemented document ingestion, text chunking, and embedding generation using transformer-based models  
+- Integrated **vector database retrieval** to fetch relevant context for user queries  
+- Combined retrieval with LLM generation to produce **context-aware and accurate responses**  
+- Designed modular architecture for scalability and real-world applications like **chatbots and knowledge assistants**
 ---
 
 ## 📜 Certifications
