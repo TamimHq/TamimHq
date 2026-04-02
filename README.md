@@ -59,7 +59,7 @@ I am passionate about developing intelligent systems that combine **real-world a
 
 ## 🚀 Projects
 
-### 🔹 Object Detection in Video
+### 🔹 Object Detection and Tracking in Video Streams
 - Real-time object detection using YOLO and OpenCV  
 - Video processing and object counting  
 
