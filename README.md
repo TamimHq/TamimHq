@@ -1,112 +1,97 @@
 # 👋 Hi, I'm Md Tamim Haque
 
-🎓 CSE Graduate | 💼 Jr. MIS Officer | 🤖 AI & Data Enthusiast  
-
-📍 Narayanganj, Bangladesh  
-📧 tamimhaque13@gmail.com  
-🔗 [LinkedIn](https://www.linkedin.com/in/tamimhaque)  
-💻 [GitHub](https://github.com/TamimHq)
+🎓 Computer Science Graduate | 🤖 Machine Learning & Computer Vision | 🌐 Low-Resource AI
+📍 Narayanganj, Bangladesh
+📧 tamimhaque13@gmail.com
+🔗 [Portfolio](https://tamimportfolio.com) · [LinkedIn](https://www.linkedin.com/in/tamimhaque) · [GitHub](https://github.com/TamimHq)
 
 ---
 
 ## 🚀 About Me
 
-I am a Computer Science graduate currently working as a **Jr. MIS Officer at Fakir Knitwear Ltd.**, where I contribute to building data-driven solutions in a large-scale manufacturing environment.
+I am a Computer Science graduate with a strong focus on **Machine Learning, Computer Vision, and multilingual AI systems** — with a particular interest in building AI that works for **low-resource languages and real-world constraints** that mainstream research often overlooks.
 
-I specialize in **data analysis, automation, and backend systems**, and I am actively expanding my expertise in **Artificial Intelligence and Computer Vision**.
+My work spans **sign language translation, Retrieval-Augmented Generation (RAG) for Bengali, real-time object detection, and deep learning classification**. I care about moving projects beyond notebooks into deployable, usable systems.
 
-I am passionate about developing intelligent systems that combine **real-world applications with data-driven insights**.
+I am currently preparing to pursue an **MSc in Artificial Intelligence**, with research interests in accessibility AI, multilingual NLP, and applied computer vision.
 
 ---
 
-## 💼 Professional Experience
+## 🔬 Research Interests
 
-### 🏢 Jr. MIS Officer — Fakir Knitwear Ltd.
-📅 Mar 2025 – Present  
+- Computer Vision & Pose Estimation
+- Multilingual & Low-Resource NLP
+- Retrieval-Augmented Generation (RAG)
+- Deep Learning & Transfer Learning
+- Sign Language Translation / Accessibility AI
 
-- Designed and maintained **MIS-based data workflows** for production and administrative systems  
-- Automated reporting using **Excel (Pivot Tables, advanced formulas)** → reduced manual work by **25%**  
-- Performed **data cleaning, validation, and consolidation** across multiple systems  
-- Worked with cross-functional teams to improve **data-driven decision making**  
-- Gained hands-on experience in **enterprise IT systems and process optimization**
+---
+
+## ⭐ Featured Projects
+
+### 🤟 SignBridge — Bidirectional Sign Language Translation
+Bidirectional sign language communication system supporting **ASL ↔ English** and **BdSL ↔ Bengali**. Built with a FastAPI backend and Flutter frontend, using MediaPipe pose estimation and keypoint-based motion modeling. Targets Bangladeshi Sign Language — a critically under-resourced language with almost no existing tools.
+`FastAPI` · `Flutter` · `MediaPipe` · `Deep Learning`
+
+### 📄 Multilingual RAG Pipeline for Bengali PDF QA
+End-to-end RAG system that answers questions from **Bengali PDFs, including scanned documents**. Combines OCR, hybrid retrieval (ChromaDB + BM25), and LaBSE multilingual embeddings with the Gemini LLM for accurate cross-lingual question answering.
+`LangChain` · `ChromaDB` · `LaBSE` · `Gemini`
+
+### 🚗 AI Vehicle Number Plate Detection (ANPR)
+Real-time Automatic Number Plate Recognition for **both Bengali and English** characters using YOLOv8 and OpenCV — with vehicle tracking, color classification, and automated Excel logging from live video.
+`YOLOv8` · `OpenCV` · `OCR`
+
+### 🖼️ AI vs Real Image Classifier
+Deep learning classifier distinguishing authentic photos from AI-generated images using the **CIFAKE dataset**. Compares a custom CNN baseline against **EfficientNetB0 transfer learning**, deployed as an interactive Streamlit app.
+`TensorFlow` · `EfficientNetB0` · `Streamlit`
+
+### 🎥 Object Detection & Tracking in Video Streams
+Multi-class real-time object detection and continuous tracking using YOLO and OpenCV, generating annotated video output and CSV analytics.
+`YOLO` · `OpenCV` · `Pandas`
 
 ---
 
 ## 🧠 Technical Skills
 
-### 💻 Programming & Development
-- Python, PHP, JavaScript, HTML, CSS  
-- Laravel, Flutter
+**Languages:** Python, Dart, JavaScript, PHP, Java, Kotlin, SQL
 
-### 🤖 AI & Computer Vision
-- OpenCV  
-- YOLO (Object Detection)  
-- CNN (Deep Learning)
+**AI / ML:** TensorFlow, Keras, YOLO, OpenCV, MediaPipe, EfficientNet, CNNs, NLP, LangChain
 
-### 🗄️ Databases
-- Oracle ORDBMS  
-- MongoDB  
+**Data & Retrieval:** ChromaDB, LaBSE, Pandas, NumPy, BM25, Power BI
 
-### ☁️ Tools & Platforms
-- AWS (Cloud Foundations Certified)  
-- WAMP / XAMPP  
+**Frameworks:** Flutter, FastAPI, Laravel, Django
 
-### 📊 Data & Visualization
-- Microsoft Excel (Advanced)  
-- Power BI  
+**Databases:** MySQL, MongoDB, Oracle, SQLite
+
+**Tools:** Git, GitHub, Streamlit, AWS (Cloud Foundations), Firebase
 
 ---
 
-## 🚀 Projects
+## 💼 Experience
 
-### 🔹 Object Detection and Tracking in Video Streams
-- Real-time object detection using YOLO and OpenCV  
-- Video processing and object counting  
+**Jr. MIS Officer — Fakir Knitwears Ltd.** *(Mar 2025 – Present)*
+Data cleaning, validation, and workflow automation across enterprise systems in a large-scale RMG manufacturing environment; automating recurring analytical reports and processing high-volume operational data.
 
-### 🔹 AI vs Real Image Classification
-
-- Developed a deep learning model to classify **real vs AI-generated images** using the CIFAKE dataset  
-- Implemented a **custom CNN (baseline)** and **EfficientNetB0 (transfer learning)** for performance comparison  
-- Applied image preprocessing, normalization, and data augmentation techniques to improve generalization  
-- Evaluated models using accuracy and classification metrics to identify the best-performing architecture  
----
-### 🔹 Retrieval-Augmented Generation (RAG) Pipeline
-
-- Built an end-to-end **RAG pipeline** for intelligent question answering over custom documents  
-- Implemented document ingestion, text chunking, and embedding generation using transformer-based models  
-- Integrated **vector database retrieval** to fetch relevant context for user queries  
-- Combined retrieval with LLM generation to produce **context-aware and accurate responses**  
-- Designed modular architecture for scalability and real-world applications like **chatbots and knowledge assistants**
 ---
 
 ## 📜 Certifications
 
-- 🟢 AWS Academy Graduate – Cloud Foundations  
-- 🟢 Advanced Database Practice (Oracle ORDBMS & MongoDB)
+- AWS Academy Graduate — Cloud Foundations
+- Artificial Intelligence & Machine Learning Fundamentals — Grameenphone Academy
+- Advanced Database Practice (Oracle ORDBMS & MongoDB) — 3dots Service Systems
 
 ---
 
-## 🎯 Career Goals
+## 🎯 Currently
 
-- Pursue a **Master’s in Computer Science (AI / Data Science focus)**  
-- Build scalable **AI-powered systems**  
-- Work in **Computer Vision & Intelligent Automation**
-
----
-
-## 📈 Currently Working On
-
-- Enhancing AI-based projects (YOLO + OCR integration)  
-- Building real-world data dashboards  
-- Strengthening full-stack + cloud integration skills  
+- 🔬 Developing **SignBridge** (sign language translation research)
+- 🎓 Applying for **MSc in Artificial Intelligence**
+- 📚 Studying Korean language & preparing graduate research
 
 ---
 
 ## 🤝 Let's Connect
 
-I am always open to:
-- Collaboration on AI/Data projects  
-- Internship / research opportunities  
-- Tech discussions  
+Open to research collaboration, AI/ML projects, and graduate research opportunities.
 
-📩 Feel free to reach out!
+📩 tamimhaque13@gmail.com
