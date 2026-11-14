@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Md Tamim Haque
 
-🎓 Computer Science Graduate | 🤖 Machine Learning & Computer Vision | 🌐 Low-Resource AI
+💻 Jr. Software Engineer | 🤖 Machine Learning & Computer Vision | 🌐 Low-Resource AI
 📍 Narayanganj, Bangladesh
 📧 tamimhaque13@gmail.com
 🔗 [Portfolio](https://tamimportfolio.com) · [LinkedIn](https://www.linkedin.com/in/tamimhaque) · [GitHub](https://github.com/TamimHq)
@@ -9,37 +9,46 @@
 
 ## 🚀 About Me
 
-I am a Computer Science graduate with a strong focus on **Machine Learning, Computer Vision, and multilingual AI systems** — with a particular interest in building AI that works for **low-resource languages and real-world constraints** that mainstream research often overlooks.
+I am a software engineer and Computer Science graduate (North South University, 2024) working on **low-resource AI — building models that learn from limited data across vision and language**. Most of my work targets **Bengali and Bangladeshi Sign Language**, where data is scarce and existing tools are few.
 
-My work spans **sign language translation, Retrieval-Augmented Generation (RAG) for Bengali, real-time object detection, and deep learning classification**. I care about moving projects beyond notebooks into deployable, usable systems.
+By day I build an **enterprise ERP system** (Laravel, JavaScript, Oracle) for a large garment manufacturer. Outside work I build and ship AI systems: **sign language translation, Bengali RAG, bilingual number plate recognition, and Bangla voice agents**. I care about moving projects beyond notebooks into deployable, usable systems.
 
-I am currently preparing to pursue an **MSc in Artificial Intelligence**, with research interests in accessibility AI, multilingual NLP, and applied computer vision.
+I am preparing to pursue an **MSc in Artificial Intelligence**, with research interests in accessibility AI, multilingual NLP, and energy-efficient models.
 
 ---
 
 ## 🔬 Research Interests
 
-- Computer Vision & Pose Estimation
-- Multilingual & Low-Resource NLP
-- Retrieval-Augmented Generation (RAG)
-- Deep Learning & Transfer Learning
+- Low-Resource Learning across Vision & Language
 - Sign Language Translation / Accessibility AI
+- Multilingual & Bengali NLP, Speech and Voice Agents
+- Retrieval-Augmented Generation (RAG)
+- Green AI — Energy-Efficient Models
+- Computer Vision & Pose Estimation
 
 ---
 
 ## ⭐ Featured Projects
 
 ### 🤟 SignBridge — Bidirectional Sign Language Translation
-Bidirectional sign language communication system supporting **ASL ↔ English** and **BdSL ↔ Bengali**. Built with a FastAPI backend and Flutter frontend, using MediaPipe pose estimation and keypoint-based motion modeling. Targets Bangladeshi Sign Language — a critically under-resourced language with almost no existing tools.
-`FastAPI` · `Flutter` · `MediaPipe` · `Deep Learning`
+Bidirectional sign language communication system supporting **BdSL ↔ Bengali** and **ASL ↔ English**. Bi-LSTM models over MediaPipe keypoints, served through a FastAPI backend with a Flutter frontend. Targets Bangladeshi Sign Language — a critically under-resourced language with almost no existing tools.
+`Bi-LSTM` · `MediaPipe Tasks API` · `FastAPI` · `Flutter`
 
-### 📄 Multilingual RAG Pipeline for Bengali PDF QA
-End-to-end RAG system that answers questions from **Bengali PDFs, including scanned documents**. Combines OCR, hybrid retrieval (ChromaDB + BM25), and LaBSE multilingual embeddings with the Gemini LLM for accurate cross-lingual question answering.
-`LangChain` · `ChromaDB` · `LaBSE` · `Gemini`
+### 🎙️ Bangla Voice Bot *(in progress)*
+Speech-to-speech conversational agent in Bangla, powered by Gemini.
+`Python` · `Gemini` · [Repository](https://github.com/TamimHq/bangla-voicebot)
 
-### 🚗 AI Vehicle Number Plate Detection (ANPR)
-Real-time Automatic Number Plate Recognition for **both Bengali and English** characters using YOLOv8 and OpenCV — with vehicle tracking, color classification, and automated Excel logging from live video.
-`YOLOv8` · `OpenCV` · `OCR`
+### 📄 ragkit — Multilingual RAG Pipeline for Bengali PDFs
+End-to-end RAG system that answers questions from **Bengali PDFs, including scanned documents**. Uses Gemini vision OCR (Tesseract corrupted Bengali conjuncts), **BGE-M3** embeddings in ChromaDB, and **character n-gram BM25** for hybrid retrieval, evaluated with rank-sensitive metrics (MRR, hit@k).
+`LangChain` · `ChromaDB` · `BGE-M3` · `BM25` · `Gemini`
+
+### 🚗 Bilingual Number Plate Recognition (ANPR)
+Real-time ANPR for **Bengali and English** plates on CCTV footage. YOLOv8 detection with BotSORT tracking, a custom Bangla character detection model, and **cross-frame voting** with first-good-read locking to stabilise plate text.
+`YOLOv8` · `BotSORT` · `OpenCV`
+
+### 📊 Sortscope — Sorting Algorithm Visualizer
+Interactive visualizer for sorting algorithms, available as an HTML/Canvas app on GitHub Pages and as a Streamlit app.
+`JavaScript` · `HTML Canvas` · `Streamlit`
 
 ### 🖼️ AI vs Real Image Classifier
 Deep learning classifier distinguishing authentic photos from AI-generated images using the **CIFAKE dataset**. Compares a custom CNN baseline against **EfficientNetB0 transfer learning**, deployed as an interactive Streamlit app.
@@ -53,24 +62,30 @@ Multi-class real-time object detection and continuous tracking using YOLO and Op
 
 ## 🧠 Technical Skills
 
-**Languages:** Python, Dart, JavaScript, PHP, Java, Kotlin, SQL
+**Languages:** Python, PHP, JavaScript, Dart, SQL, Java, Kotlin
 
-**AI / ML:** TensorFlow, Keras, YOLO, OpenCV, MediaPipe, EfficientNet, CNNs, NLP, LangChain
+**AI / ML:** PyTorch, TensorFlow, Keras, YOLOv8, OpenCV, MediaPipe, Bi-LSTM, CNNs, EfficientNet, NLP, LangChain
 
-**Data & Retrieval:** ChromaDB, LaBSE, Pandas, NumPy, BM25, Power BI
+**Data & Retrieval:** ChromaDB, BGE-M3, LaBSE, BM25, Pandas, NumPy, Power BI
 
-**Frameworks:** Flutter, FastAPI, Laravel, Django
+**Frameworks:** Laravel, FastAPI, Flutter, Django
 
-**Databases:** MySQL, MongoDB, Oracle, SQLite
+**Databases:** Oracle, MySQL, MongoDB, SQLite
 
-**Tools:** Git, GitHub, Streamlit, AWS (Cloud Foundations), Firebase
+**Tools:** Git, GitHub, Streamlit, Google Colab, AWS (Cloud Foundations), Firebase, LaTeX
 
 ---
 
 ## 💼 Experience
 
-**Jr. MIS Officer — Fakir Knitwears Ltd.** *(Mar 2025 – Present)*
-Data cleaning, validation, and workflow automation across enterprise systems in a large-scale RMG manufacturing environment; automating recurring analytical reports and processing high-volume operational data.
+**Jr. Software Engineer, IT Department — Fakir Knitwears Ltd.** *(Mar 2025 – Present)*
+Building an enterprise ERP system with PHP/Laravel, JavaScript, and Oracle in a large-scale RMG manufacturing environment. Earlier work covered MIS data workflows, automation of recurring reports, and processing of high-volume operational data.
+
+---
+
+## 🎓 Education
+
+**BSc in Computer Science and Engineering** — North South University, Dhaka *(2024)*
 
 ---
 
@@ -84,9 +99,10 @@ Data cleaning, validation, and workflow automation across enterprise systems in 
 
 ## 🎯 Currently
 
-- 🔬 Developing **SignBridge** (sign language translation research)
-- 🎓 Applying for **MSc in Artificial Intelligence**
-- 📚 Studying Korean language & preparing graduate research
+- 🎙️ Building a **Bangla voice bot** (speech-to-speech conversational agent)
+- 🔬 Researching **energy-efficient Bangladeshi Sign Language recognition** (Green AI)
+- 🧩 Developing ERP modules at Fakir Knitwears
+- 🎓 Applying for **MSc in Artificial Intelligence** and studying Korean
 
 ---
 
